@@ -11,6 +11,7 @@ export function findMaxNumber(numbers: number[]): number {
   let index = 0;
   for (let i = 0; i < numbers.length; i++) {
     if (numbers[i] > MaxNum) {
+      MaxNum = numbers[i];
       index = i;
     }
   }

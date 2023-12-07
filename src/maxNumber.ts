@@ -14,5 +14,5 @@ export function findMaxNumber(numbers: number[]): number {
       index = i;
     }
   }
-  return index;
+  return numbers[index];
 }

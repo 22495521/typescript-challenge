@@ -24,7 +24,7 @@ export function addTodo(todos: Todo[], task: string): Todo[] {
   return [
     ...todos,
     {
-      id: todos.length,
+      id: todos.length + 1,
       task,
       completed: false,
     },
